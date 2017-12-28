@@ -9,6 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringbcApplicationTests {
 
+	//测试类，只是测试上下文加载
 	@Test
 	public void contextLoads() {
 	}
