@@ -2,8 +2,10 @@ package com.zhangjc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = "com.zhangjc")
 public class SpringbcApplication {
 
 	//启动容器的入口（带内置tomcat）
