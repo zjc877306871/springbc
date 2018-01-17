@@ -6,6 +6,7 @@ package com.zhangjc.classLoad;
 public class BaseManageImpl implements BaseManage {
     @Override
     public void logic() {
-        System.out.print("则会里面真是不错");
+        System.out.println("则会里面真是不错jishussss");
+        System.out.println("咋不变1111");
     }
 }
