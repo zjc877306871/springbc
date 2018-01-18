@@ -1,6 +1,5 @@
 package com.zhangjc;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,4 +13,6 @@ public class HelloController {
         System.out.println("终于解决了");
         return "hello world";
     }
+
+
 }
